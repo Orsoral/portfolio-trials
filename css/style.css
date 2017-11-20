@@ -24,10 +24,20 @@ body {
   float: left;
 }
 
+.comment {
+  z-index: -1;
+  transform: skewY(-6deg);
+  font-family: 'Caveat', cursive;
+  font-size: 1.4em;
+  margin-top: -1em;
+  margin-left: 2em;
+  color: #00BFA5;
+}
+
 img {
   padding: 0;
   margin: 0;
-}
+  }
 
 .case {
   max-width: 18em;
@@ -40,6 +50,8 @@ img {
 
 p {
   max-width: 60em;
+  margin: 0;
+  padding: 0;
 }
 
 blockquote {
@@ -100,6 +112,15 @@ main {
 .section {
   clear: both;
   margin-top: 5em;
+}
+
+.refSection{
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  max-width: 50em;
+  min-width: 10em;
+  display: block;
 }
 
 .BGright {
@@ -176,7 +197,6 @@ a {
 
 .cta-button{
   background-color: #E91D63;
-  color: #EFEBE9;
 }
 
 .button:hover,
@@ -191,7 +211,7 @@ a {
   justify-content: space-around;
   margin: 0;
   padding: 0;
-  /*align-items: baseline;*/
+  align-items: baseline;
 }
 
 .icon{
@@ -202,6 +222,7 @@ a {
   padding: 0.4em;
 }
 
+.flex-text-large,
 .flex-text{
   width: auto;
   max-width: 20em;
@@ -210,6 +231,10 @@ a {
   margin-top: 3em;
   padding: 0.2em;
   display: block;
+}
+
+.flex-text-large{
+  max-width: 50em;
 }
 
 em {
@@ -228,15 +253,62 @@ sub {
 }
 
 cite {
-  font-size: 0.6em;
+  font-size: 0.8em;
   line-height: 0.4em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+q {
+  color: #004D40;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.pquote,
+.pquote-l {
+      float: right;
+      width: 8em;
+      font-size: 1.4em;
+      font-weight: thin;
+      font-style: italic;
+      background: url(../images/openquote.png) top left no-repeat;
+      padding: 1em;
+      margin: 0;
+  }
+
+.pquote-l {
+  float: left;
+}
+
+.pquote-l p::first-letter,
+.pquote p:first-letter {
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 blockquote {
-  color: #004D40;
+      margin: 0; /* gets rid of the default blockquote margin */
+      padding: 0;
+  }
+
+abbr {
+  border-bottom-style: dotted;
+  border-bottom-color: #00838F;
+  border-bottom-width: thin;
 }
 
+mark {
+  background: #1CFFFF;
+}
 
+::selection {
+  background: #63FFDA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #63FFDA; /* Gecko Browsers */
+}
 
 /*------------------------------*\
     Grid System
@@ -397,6 +469,7 @@ blockquote {
       margin: 0;
       max-width: 80px;
     }
+
     .icon-list{
       justify-content: center;
       padding: 0;
