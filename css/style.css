@@ -357,6 +357,10 @@ Javascript specific styles
   margin-top: 2em;
 }
 
+.flexDeliverable {
+  margin-top: 0em;
+}
+
 .references {
   align-items: stretch;
 }
@@ -416,7 +420,7 @@ Case studies styles
   margin-top:1em;
 }
 
-#persona {
+/*#persona {
   background-image: url("../images/deliverables-persona-front.png");
   background-position: center;
   background-attachment: fixed;
@@ -425,7 +429,6 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
 }
 
 #experienceMaps {
@@ -437,7 +440,6 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
 }
 
 #informationArchitecture {
@@ -449,8 +451,7 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
-}
+}*/
 
 #collaborativeIdeation {
   background-image: url("../images/deliverables-workshop.jpg");
@@ -461,11 +462,10 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
 }
 
-#rapidPrototyping-01 {
-  background-image: url("../images/deliverables-mockups.png");
+#wireframing-01 {
+  background-image: url("../images/deliverables-wireframe-01.png");
   background-position: center;
   background-attachment: fixed;
   background-origin: padding-box;
@@ -473,11 +473,43 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
 }
 
-#rapidPrototyping-02 {
-  background-image: url("../images/deliverables-mockups.png");
+#wireframing-02 {
+  background-image: url("../images/deliverables-wireframe-02.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 15em;
+  width: 100%;
+}
+
+#wireframing-03 {
+  background-image: url("../images/deliverables-wireframe-03.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 15em;
+  width: 100%;
+}
+
+#wireframing-04 {
+  background-image: url("../images/deliverables-wireframe-04.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 15em;
+  width: 100%;
+}
+
+#wireframing-05 {
+  background-image: url("../images/deliverables-wireframe-05.png");
   background-position: center;
   background-attachment: fixed;
   background-origin: padding-box;
@@ -485,20 +517,24 @@ Case studies styles
   background-size: contain;
   padding-bottom: 40em;
   width: 100%;
-  align-content: center;
 }
 
-#persona,
-#experienceMaps,
+/*#persona,
+#experienceMaps,*/
 #collaborativeIdeation,
-#informationArchitecture,
-#rapidPrototyping-01 {
+/*#informationArchitecture,*/
+#wireframing-01,
+#wireframing-02,
+#wireframing-03,
+#wireframing-04,
+#wireframing-05 {
   border-top-color: #1CFFFF;
   border-top-width: thick;
   border-top-style: solid;
   border-bottom-color: #1CFFFF;
   border-bottom-width: thick;
   border-bottom-style: solid;
+  align-content: center;
 }
 
 /*------------------------------*\
