@@ -148,7 +148,6 @@ h4 {
 
 em {
   font-weight: 700;
-  color: #004D40;
   font-style: normal;
 }
 
@@ -676,8 +675,15 @@ Case studies styles
       margin: auto;
     }
 
-    #persona {
-      padding-top: 15em;
+    /*#persona,
+    #experienceMaps,*/
+    #collaborativeIdeation,
+    /*#informationArchitecture,*/
+    #wireframing-01,
+    #wireframing-02,
+    #wireframing-03,
+    #wireframing-04,
+    #wireframing-05 {
       padding-bottom: 15em;
     }
 }
