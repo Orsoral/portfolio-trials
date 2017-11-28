@@ -29,13 +29,13 @@ main {
 footer {
   clear: both;
   background-image: linear-gradient(to top right, #1CFFFF, #00BFA5);
-  padding: 2em;
+  padding: 2em 1em 2em 1em;
 }
 
 header,
 section {
   clear: both;
-  padding: 2em;
+  padding: 1em;
 }
 
 section {
@@ -65,6 +65,10 @@ section {
   background-position: bottom, left;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+#references {
+  background-image: linear-gradient(to top right, #1CFFFF, #00BFA5);
 }
 
 /* Visual styles */
@@ -350,6 +354,11 @@ Javascript specific styles
   align-items: flex-end;
   margin: 0;
   padding: 0;
+  margin-top: 2em;
+}
+
+.references {
+  align-items: stretch;
 }
 
 .social {
@@ -367,11 +376,11 @@ transform: rotateZ(380deg);
 
 .flexText{
   width: auto;
-  max-width: 18em;
+  max-width: 20em;
   min-width: 8em;
   margin: 0.2em;
-  margin-top: 3em;
-  padding: 2em;
+  margin-top: 0.5em;
+  padding: 1em;
 }
 
 .flexHalf{
@@ -380,6 +389,11 @@ transform: rotateZ(380deg);
 
 .flexFull {
   max-width: 60em;
+  padding:1em;
+}
+
+.flexBG {
+  background-color: rgba(255,255,255,0.90);
 }
 
 /*
@@ -402,9 +416,90 @@ Case studies styles
   margin-top:1em;
 }
 
+#persona {
+  background-image: url("../images/deliverables-persona-front.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
 
+#experienceMaps {
+  background-image: url("../images/deliverables-journeymap.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
 
+#informationArchitecture {
+  background-image: url("../images/deliverables-informationArchitecture-tree.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
 
+#collaborativeIdeation {
+  background-image: url("../images/deliverables-workshop.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
+
+#rapidPrototyping-01 {
+  background-image: url("../images/deliverables-mockups.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
+
+#rapidPrototyping-02 {
+  background-image: url("../images/deliverables-mockups.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 40em;
+  width: 100%;
+  align-content: center;
+}
+
+#persona,
+#experienceMaps,
+#collaborativeIdeation,
+#informationArchitecture,
+#rapidPrototyping-01 {
+  border-top-color: #1CFFFF;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-bottom-color: #1CFFFF;
+  border-bottom-width: thick;
+  border-bottom-style: solid;
+}
 
 /*------------------------------*\
     Grid System
@@ -543,6 +638,11 @@ Case studies styles
     .flexList{
       justify-content: center;
       margin: auto;
+    }
+
+    #persona {
+      padding-top: 15em;
+      padding-bottom: 15em;
     }
 }
 
